@@ -1,5 +1,6 @@
 
 from threading import Thread
+from multipledispatch import dispatch
 class Player:
 
     def get_runs(self, n):
